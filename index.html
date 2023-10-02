@@ -5,6 +5,7 @@
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
@@ -117,7 +118,7 @@
   
 
 
-  <div class="hero_area">
+  <div class="hero_area" >
 
     <div class="hero_bg_box">
       <div class="bg_img_box">
@@ -125,12 +126,12 @@
       </div>
     </div>
     <section class="slider_section ">
-      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel" >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container ">
               <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-md-6 " data-aos="slide-right" data-aos-duration="1000">
                   <div class="detail-box">
                     <h1>
                       Win Prizes Worth <br>
@@ -146,7 +147,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="slide-left" data-aos-duration="1000">
                   <div class="img-box">
                     <img src="images/image_1-removebg-preview.png" alt="">
                   </div>
@@ -255,7 +256,7 @@ project section -->
 <h1 style="text-align: center; font-weight: bold;">Our Projects</h1>
 <br>
 
-<div class="slide-container swiper" id="projects">
+<div class="slide-container swiper" id="projects" data-aos="slide-up" data-aos-duration="1000">
   <div class="slide-content">
       <div class="card-wrapper swiper-wrapper">
           <div class="card swiper-slide">
@@ -263,7 +264,7 @@ project section -->
                   <span class="overlay"></span>
 
                   <div class="card-image">
-                     <img src="images/about-img.jpg" alt="" class="card-img">
+                     <img src="" alt="" class="card-img">
                   </div>
               </div>
 
@@ -280,7 +281,7 @@ project section -->
                   <span class="overlay"></span>
 
                   <div class="card-image">
-                         <img src="images/about-img.jpg" alt="" class="card-img">
+                         <img src="" alt="" class="card-img">
                   </div>
               </div>
 
@@ -506,7 +507,7 @@ project section -->
 
 
     <!-- ***** Subscribe Area Starts ***** -->
-    <div class="subscribe" id="footer" >
+    <div class="subscribe" id="footer"  >
       <div class="container" >
                   <div class="section-heading" >
                     <span>Get In Touch</span>
@@ -532,8 +533,8 @@ project section -->
   <br>
   <!-- info section -->
 
-  <section class="info_section layout_padding2" >
-    <div class="container">
+  <section class="info_section layout_padding2" data-aos="slide-up" data-aos-duration="1000" >
+    <div class="container" >
       <div class="row">
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_contact">
@@ -655,6 +656,10 @@ project section -->
    
     <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   <!-- End Google Map -->
 
 </body>
